@@ -10,3 +10,14 @@ class TemperatureConverter {
         }
     }
 }
+
+fun main() {
+    val celsius = 11.0
+    val fahrenheit = 51.8
+
+    val convertedFahrenheit = TemperatureConverter.celsiusToFahrenheit(celsius)
+    println("$celsius°C = $convertedFahrenheit°F")
+
+    val convertedCelsius = TemperatureConverter.fahrenheitToCelsius(fahrenheit)
+    println("$fahrenheit°F = $convertedCelsius°C")
+}
