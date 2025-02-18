@@ -1,0 +1,6 @@
+class TemperatureConverter {
+
+    companion object {
+
+    }
+}
